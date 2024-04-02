@@ -1,3 +1,95 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #fff;
+}
+
 body {
-    color: #212121;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.studio-header {
+  color: var(--main-text-color);
+}
+.header-link {
+  font-family: inherit;
+  color: currentColor;
+  text-decoration: none;
+}
+.link-mode:hover,
+.link-mode:focus {
+  color: var(--accent-color);
+}
+.email {
+  font-family: inherit;
+  color: currentColor;
+  text-decoration: none;
+}
+.phone {
+  font-family: inherit;
+  color: #757575;
+  text-decoration: none;
+}
+.main-button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: currentColor;
+  cursor: pointer;
+}
+.btn-mode:hover,
+.btn-mode:focus {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+.title-text {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: currentColor;
+}
+.text {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+.address {
+  font-family: inherit;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.studio-footer {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.footer-email,
+.footer-phone {
+  font-family: inherit;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
