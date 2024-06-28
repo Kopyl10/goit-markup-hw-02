@@ -37,13 +37,11 @@ body {
 .link-mode:focus {
   color: var(--accent-color);
 }
-.email {
-  font-family: inherit;
-  color: #757575;
-  text-decoration: none;
-}
+.email,
 .phone {
   font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
 }
@@ -131,13 +129,13 @@ body {
 }
 .team-title {
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: currentColor;
 }
 .team-text {
   font-family: inherit;
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -165,4 +163,8 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.a:hover, 
+.a:active {
+color: #2196f3;
 }
